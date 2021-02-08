@@ -1,0 +1,377 @@
+@media only screen and (max-width : 480px) {
+	html{
+		background: none;
+	}
+	#main_body{
+		margin: 0 !important;
+	}
+	#form_container,#footer{
+		width: 100% !important;
+		padding: 0px !important;
+		margin: 0 auto !important;
+	}
+	#form_container{
+		box-shadow: none !important;
+		border: none !important;
+	}
+	#form_container:before,#form_container:after{
+		display: none !important;
+	}
+	form.appnitro,.embed form.appnitro{
+		margin: 15px 15px 0 15px;
+	}
+	#top,#bottom{
+		display: none;
+	}
+	#li_resume_email{
+		width: 99%;
+	}
+	#main_body #element_resume_email{
+		width: 70%;
+	}
+	#main_body form li{
+		padding: 4px 2px 2px;
+	}
+	.no_guidelines form li,.appnitro li{
+		width: 99%;
+	}
+	#main_body form li.column_2,
+	#main_body form li.column_3,
+	#main_body form li.column_4,
+	#main_body form li.column_5,
+	#main_body form li.column_6{
+		width: 99% !important;
+		float: none;
+	}
+	
+	#main_body input.text{
+		padding: 5px 3px;
+	}
+	#main_body input.medium{
+		width:70%;
+	}
+	#main_body input.large,#main_body textarea.textarea{
+		width: 98%;
+	}
+	#main_body form li .guidelines{
+		background: none !important;
+		border: none !important;
+		font-size:105%;
+		line-height:100%;
+		margin: 0 !important;
+	    padding: 0 0 5px;
+		visibility:visible;
+		width:100%;
+		position: static;
+		clear: both;
+	}
+	.password input.text {
+		width: 90%;
+	}
+	/** Label Alignment **/
+	#main_body form.left_label li, #main_body form.right_label li{
+		padding-top: 4px;
+		width: 99%;
+	}
+	.no_guidelines form.left_label li, .no_guidelines form.right_label li{
+		width: 99% !important;
+	}
+	#main_body form.left_label label.description,#main_body form.right_label label.description,
+	#main_body form.left_label span.description,#main_body form.right_label span.description{
+		float: none;
+		margin: 0;
+		width: 100%;
+		text-align: left;
+	}
+	.no_guidelines form.left_label label.description,
+	.no_guidelines form.right_label label.description,
+	.no_guidelines form.left_label span.description,
+	.no_guidelines form.right_label span.description,
+	#main_body form.left_label .guidelines,
+	#main_body form.right_label .guidelines{
+		width: 100% !important;
+	}
+
+	#main_body form.left_label li div, #main_body form.right_label li div
+	{
+		float: none;
+		width: 100%;
+	}
+
+	/** Multiple Choice and Checkboxes **/
+	#main_body form li.two_columns div span,
+	#main_body form li.three_columns div span,
+	#main_body form li.inline_columns div span{
+	  	margin:0;
+	}
+	
+	#main_body form li.multiple_choice div span,
+	#main_body form li.checkboxes div span{
+		border-bottom: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		padding: 5px 2px 5px 10px;
+		width: 96%;
+	}
+	#main_body form li.multiple_choice div fieldset span:first-of-type,
+	#main_body form li.checkboxes div span:first-child{
+		border: 1px solid #ccc;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+	#main_body form li.multiple_choice div fieldset span:last-child,
+	#main_body form li.checkboxes div span:last-child{
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+
+	#main_body form li.multiple_choice .guidelines,
+	#main_body form li.checkboxes .guidelines{
+		clear: both;
+		padding-top: 10px;
+	}
+
+	#main_body input.radio,#main_body input.checkbox{
+    	visibility: hidden;
+	}
+
+	#main_body input[type="radio"] + label::before,
+	#main_body input[type="checkbox"] + label::before{
+	    content: '';
+	    display:inline-block;
+	    position: absolute;
+	    width:1.2em;
+	    height:1.2em;
+	    margin: 1px 0 0 -23px;
+	    cursor:pointer;
+	    vertical-align:middle;
+	    background-color:#ccc;
+	    border-radius: 0.8em;
+	    
+	}
+	#main_body input[type="checkbox"] + label::before{
+		border-radius: 0.3em;
+	}
+	#main_body input[type="radio"]:checked + label::before {
+		background-color: #4596CE;
+	}
+	#main_body input[type="checkbox"]:checked + label::before {
+		width:0.5em;
+    	height:0.9em;
+		background-color: transparent;
+    	border-bottom: 0.5em solid #4596CE;
+    	border-right: 0.5em solid #4596CE;
+    	-webkit-transform: translate(2px,-2px)  rotateZ(45deg);
+    	-moz-transform: translate(2px,-2px)  rotateZ(45deg);
+    	transform: translate(2px,-2px)  rotateZ(45deg);
+	}
+	#main_body input.other{
+		width: 83%;
+	}
+
+	/** Matrix **/
+	#main_body li.matrix td{
+		padding: 6px 0;
+	}
+	#main_body li.matrix input[type="radio"]{
+		background-color: #ccc;
+		border-color: #ccc; 
+	}
+	#main_body li.matrix input[type="checkbox"]{
+		background-color: #ccc;
+		border-color: #ccc; 
+	}
+	#main_body li.matrix input[type="radio"]:checked{
+		background-color: #4596CE;
+		border-color: #4596CE; 
+	}
+	
+	/** Name fields **/
+	#main_body li.simple_name .simple_name_1{
+		width: 42%;
+	}
+	#main_body li.simple_name .simple_name_2{
+		width: 56%;
+		margin-right: 0px;
+	}
+	#main_body li.simple_name .simple_name_1 input.text{
+		width: 94%;
+	}
+	#main_body li.simple_name .simple_name_2 input.text{
+		width: 96%;
+	}
+	
+	#main_body li.simple_name_wmiddle input.text{
+		width: 90%;
+	}
+	#main_body li.simple_name_wmiddle .simple_name_wmiddle_3 input.text{
+		width: 95%;
+	}
+	#main_body li.simple_name_wmiddle .simple_name_wmiddle_1,
+	#main_body li.simple_name_wmiddle .simple_name_wmiddle_2{
+		width: 25%;
+	}
+	#main_body li.simple_name_wmiddle .simple_name_wmiddle_3{
+		width: 47%;
+		margin-right: 0px;
+	}
+
+	#main_body li.fullname .fullname_2 input.text{
+		width: 91%;
+	}
+	#main_body li.fullname .fullname_3 input.text{
+		width: 93%;
+	}
+	#main_body li.fullname .fullname_1 input.text,
+	#main_body li.fullname .fullname_4 input.text{
+		width: 77%;
+	}
+	#main_body li.fullname .fullname_1{
+		width: 12%;
+	}
+	#main_body li.fullname .fullname_2{
+		width: 30%;
+	}
+	#main_body li.fullname .fullname_3{
+		width: 42%;
+	}
+	#main_body li.fullname .fullname_4{
+		width: 12%;
+		margin-right: 0px;
+	}
+
+	#main_body li.fullname_wmiddle input.text{
+		width: 90%;
+	}
+	#main_body li.fullname_wmiddle .namewm_ext input.text{
+		width: 79%;
+	}
+	#main_body li.fullname_wmiddle .namewm_last input.text{
+		width: 92%;
+	}
+	#main_body li.fullname_wmiddle .namewm_ext{
+		width: 9%;
+	}
+	#main_body li.fullname_wmiddle .namewm_first{
+		width: 25%;
+	}
+	#main_body li.fullname_wmiddle .namewm_middle{
+		width: 25%;
+	}
+	#main_body li.fullname_wmiddle .namewm_last{
+		width: 26%;
+	}
+	#main_body select.select{
+		height: 36px;
+	}
+
+	/** Time field **/
+	#main_body li.time_field input.text{
+		width: 35px;
+	}
+
+	/** Address field **/
+	#main_body li.address input.large{
+		width: 98%;
+	}
+	#main_body form li div span.state_list{
+		height: 46px;
+	}
+	#main_body li.address select.select{
+		width: 105%;
+	}
+
+	/** Signature Field **/
+	#main_body form li div.mf_sig_wrapper{
+		-webkit-transform: scaleX(0.9);
+    	-moz-transform: scaleX(0.9);
+    	transform: scaleX(0.9);
+    	margin-left: -16px;
+	}
+	.mf_sigpad_clear{
+		margin-left: 250px;
+	}
+	.mf_sigpad_view{
+		-webkit-transform: scale(0.65,0.65);
+    	-moz-transform: scale(0.65,0.65);
+    	transform: scale(0.65,0.65);
+    	margin-left: -55px;
+    	margin-top: -20px;
+	}
+
+	/** Date Field **/
+	#main_body li.date_field .date_mm input.text,
+	#main_body li.date_field .date_dd input.text,
+	#main_body li.europe_date_field .date_mm input.text,
+	#main_body li.europe_date_field .date_dd input.text{
+		width: 35px;
+	}
+	#main_body li.date_field .date_yyyy input.text,
+	#main_body li.europe_date_field .date_yyyy input.text{
+		width: 70px;
+	}
+	#main_body li img.datepicker{
+		-webkit-transform: scale(1.5,1.5);
+    	-moz-transform: scale(1.5,1.5);
+    	transform: scale(1.5,1.5);
+    	margin-left: 5px;
+    	margin-top: 5px;
+	}
+	#main_body form li.date_field label{
+		margin-left: 10px;
+	}
+
+	/** Phone Field **/
+	#main_body li.phone input.text{
+		width: 35px;
+	}
+	#main_body li.phone .phone_3 input.text{
+		width: 70px;
+	}
+	#main_body li.phone .phone_1,
+	#main_body li.phone .phone_2{
+		width: 20%;
+	}
+	#main_body li.phone .phone_3{
+		width: 30%;
+	}
+	#main_body form li.phone label{
+		margin-left: 10px;
+	}
+
+	/** Payment Page **/
+	#main_body form li.payment_summary_list{
+		width: 60%;
+		margin-right: 8px;
+	}
+	#main_body form li.credit_card div span#li_cc_span_4{
+		margin-right: 3px;
+	}
+	#cc_expiry_month{
+		width: 38%;
+	}
+	#cc_expiry_year{
+		width: 22%;
+	}
+	#stripe-card-element {
+		width: 98%;
+	}
+	/** File Upload **/
+	.uploadifive-queue-item{
+		width: 95%;
+	} 
+	/** reCAPTCHA **/
+	#rc-imageselect, .g-recaptcha {
+	   transform:scale(0.77);
+	  -webkit-transform:scale(0.77);
+	   transform-origin:0 0;
+	  -webkit-transform-origin:0 0;
+	}
+	/** Media Video **/
+	#main_body form li div.media_video_container,
+	#main_body form li div.media_video_container.small,
+	#main_body form li div.media_video_container.medium,
+	#main_body form li div.media_video_container.large{
+		width: 99%;
+	}
+}
